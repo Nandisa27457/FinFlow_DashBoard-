@@ -7,6 +7,12 @@ const Dashboard = () => {
     return (
         <>
             <Layout>
+                <div>
+                    <h1>
+                        Dashboard
+                    </h1>
+                    <p>Your financial view at a glance</p>
+                </div>
                 <div className="card-container">
                     <div className="Revenue">
                         <FinflowCard title="Total Revenue">
