@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Sidebar styling */
+.sidebar-container {
+    width: 300px;
+    background-color: hsl(36, 22%, 96%);
+    height: 100%;
+    box-sizing: border-box;
+    border: solid 0.4px rgba(128, 128, 128, 0.27);
+}
+
+.main-content {
+    flex: 1;
+    background-color: hsl(0, 0%, 95%);
+    height: 100%;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(
+        to right,
+        hsl(32, 24%, 55%),
+        hsla(45, 9%, 91%, 0.295)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* margin-left:50px; */
+    padding: 15px;
+    position: relative;
+    top: 30px;
+    border-bottom: 1px solid #cccccc47;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.footer {
+    margin-top: 150px;
+    margin-left: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.27);
+    padding-top: 15px;
+}
+
+.nav-link-titles {
+    font-weight: lighter;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    margin-left: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+.Username {
+    margin-left: 20px;
+}
+.user-container {
+    display: flex;
+    flex-direction: row;
+}
+/* 
+=====================
+Dashboard Stylings
+======================
+ */
+
+.sub-heading {
+    color: rgba(128, 128, 128, 0.728);
+}
+.amount {
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.Revenue {
+    margin-left: 40px;
+    height: 150px;
+    width: 220px;
+    background-color: hsl(0 0% 100%);
+    border: 1px solid hsl(35 15% 88%);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.Expenses {
+    margin-left: 40px;
+    height: 150px;
+    width: 220px;
+    background-color: hsl(0 0% 100%);
+    border: 1px solid hsl(35 15% 88%);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.VAT {
+    margin-left: 40px;
+    height: 150px;
+    width: 220px;
+    background-color: hsl(0 0% 100%);
+    border: 1px solid hsl(35 15% 88%);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.Profit {
+    margin-left: 40px;
+    height: 150px;
+    width: 220px;
+    background-color: hsl(0 0% 100%);
+    border: 1px solid hsl(35 15% 88%);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
