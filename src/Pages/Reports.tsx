@@ -1,10 +1,15 @@
 import Layout from "../Components/Layout";
 
-export default function Account(){
+
+
+
+export default function Reports(){
     return(
         <>
         <Layout/>
-       <h1>This your Chart of Accounts Page</h1>
+       <h1>This your report page</h1>
         </>
+        
+        
     )
 }

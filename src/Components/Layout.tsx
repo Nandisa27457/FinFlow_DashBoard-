@@ -50,9 +50,10 @@ export default function Layout({ children }: any) {
                     <span className="footer">{<UserCard />}</span>
                 </div>
                 {/* Main-Container */}
+                <div className="body">
                     <div className="dashboard-container">{children}</div>
                 </div>
-    
+            </div>
         </>
     );
 }

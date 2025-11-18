@@ -37,11 +37,9 @@ body,
 .main-heading {
     font-size: 2.5rem;
     font-weight: 700;
-    background: linear-gradient(
-        to right,
-        hsl(32, 24%, 55%),
-        hsla(45, 9%, 91%, 0.295)
-    );
+    background: linear-gradient(to right,
+            hsl(32, 24%, 55%),
+            hsla(45, 9%, 91%, 0.295));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -88,14 +86,19 @@ body,
 .main-container {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
+
 .Username {
     margin-left: 20px;
 }
+
 .user-container {
     display: flex;
     flex-direction: row;
+    border-top: 1px solid grey;
 }
+
 /* 
 =====================
 Dashboard Stylings
@@ -105,6 +108,7 @@ Dashboard Stylings
 .sub-heading {
     color: rgba(128, 128, 128, 0.728);
 }
+
 .amount {
     font-size: 2rem;
     font-weight: 550;
@@ -159,4 +163,9 @@ Dashboard Stylings
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 15px;
+}
+
+.content-layout {
+    display: flex;
+    flex-direction: row;
 }
