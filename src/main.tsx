@@ -46,7 +46,7 @@ createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <BrowserRouter>
             <div className="content-layout">
-                {/* <SideNav navItems={navLinks} /> */}
+                <SideNav navItems={navLinks} />
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/home" element={<App />} />
