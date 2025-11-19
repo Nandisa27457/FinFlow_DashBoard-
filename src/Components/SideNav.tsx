@@ -17,8 +17,11 @@ const SideNav = ({ navItems, activePath = navItems[0].path }: SideNavProps) => {
     // const currentPath = activePath ?? (typeof window !== "undefined" ? window.location.pathname : "");
 
     return (
-        <nav>
-            <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+        <div className="main-container">
+        <div className="sidebar-container">
+            <h1 className="main-heading">FinFlow</h1>
+        <nav className="nav-container">
+            <ul>
                 {navItems.map((item) => {
                     // const isActive = item.path === currentPath;
                     return (
@@ -27,13 +30,14 @@ const SideNav = ({ navItems, activePath = navItems[0].path }: SideNavProps) => {
                                 icon={item.icon}
                                 path={item.path}
                                 title={item.title}
-                                
                             />
                         </li>
                     );
                 })}
             </ul>
         </nav>
+    </div>
+    </div>
     );
 };
 
