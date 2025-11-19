@@ -27,6 +27,7 @@ const SideNav = ({ navItems, activePath = navItems[0].path }: SideNavProps) => {
                                 icon={item.icon}
                                 path={item.path}
                                 title={item.title}
+                                
                             />
                         </li>
                     );
