@@ -23,7 +23,7 @@ body,
 .sidebar-container {
     width: 300px;
     background-color: hsl(36, 22%, 96%);
-    height: 100%;
+    height: 100vh;
     box-sizing: border-box;
     border: solid 0.4px rgba(128, 128, 128, 0.27);
 }
@@ -37,9 +37,11 @@ body,
 .main-heading {
     font-size: 2.5rem;
     font-weight: 700;
-    background: linear-gradient(to right,
-            hsl(32, 24%, 55%),
-            hsla(45, 9%, 91%, 0.295));
+    background: linear-gradient(
+        to right,
+        hsl(32, 24%, 55%),
+        hsla(45, 9%, 91%, 0.295)
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
