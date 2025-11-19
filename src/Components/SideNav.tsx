@@ -8,12 +8,7 @@ export interface SideNavProps {
 }
 
 const SideNav = ({ navItems, activePath = navItems[0].path }: SideNavProps) => {
-    /* TODO:
-     * add css styling to this component so that it looks as good as Layout.tsx
-     * 1. Create the styles folder and add a Sidenave.css file
-     * 2. Add all the css that belongs to the side nav to this file and import the file in here
-     * 3. test...
-     * */
+    
     // const currentPath = activePath ?? (typeof window !== "undefined" ? window.location.pathname : "");
 
     return (
