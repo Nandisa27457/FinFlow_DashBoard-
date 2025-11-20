@@ -38,7 +38,10 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "ESNext",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "allowJs": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
@@ -47,7 +50,7 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
-
-
