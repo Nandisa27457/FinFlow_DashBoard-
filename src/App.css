@@ -170,4 +170,11 @@ Dashboard Stylings
 .content-layout {
     display: flex;
     flex-direction: row;
+    width:100%
+}
+
+.page-content {
+    flex: 1;
+    display: block;
+    padding: 2rem;
 }
