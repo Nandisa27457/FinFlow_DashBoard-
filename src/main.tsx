@@ -45,8 +45,9 @@ const navLinks = [
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <BrowserRouter>
-            <div className="content-layout">
+        <div className="content-layout">
                 <SideNav navItems={navLinks} />
+                <div className="page-content">
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/home" element={<App />} />
@@ -60,6 +61,7 @@ createRoot(document.getElementById("root")!).render(
                     <Route path="/VAT" element={<VAT />} />
                     <Route path="/settings" element={<Settings />} />
                 </Routes>
+                </div>
             </div>
         </BrowserRouter>
         ,
