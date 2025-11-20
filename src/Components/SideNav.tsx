@@ -4,7 +4,7 @@ import type { NavtItemProps } from "./NavItem";
 import NavItem from "./NavItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { Drawer, IconButton, Box } from "@mui/material";
+import { Drawer, IconButton } from "@mui/material";
 
 export interface SideNavProps {
     navItems: NavtItemProps[];
