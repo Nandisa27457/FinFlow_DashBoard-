@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Drawer, IconButton } from "@mui/material";
-
+import SidebarProfileCard from "./ProfileCard";
 export interface SideNavProps {
     navItems: NavtItemProps[];
     activePath?: string;
@@ -65,6 +65,9 @@ const SideNav = ({ navItems, activePath = navItems[0].path }: SideNavProps) => {
                                 })}
                             </ul>
                         </nav>
+                        <div className="footer">
+                        <SidebarProfileCard/>
+                        </div>
                     </div>
                 </div>
             </Drawer>
